@@ -1,0 +1,50 @@
+﻿@model List<ABC.TODOAPP.DTOs.WorkDTOs.WorkListDTO>
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>Todo App</title>
+
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container my-2">
+        <div class="text-end my-2">
+            <a asp-action="Create" asp-controller="Home" class="btn btn-primary btn-sm">New Work</a>
+
+        </div>
+        <table class="table table-hover table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th>Work</th>
+                    <th>State </th>
+                    <th>Update </th>
+                    <th>Delete </th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.Definition
+                        </td>
+                        <td>@(item.IsComplated ? "Tamamlandı" : "Tamamlanmadı")</td>
+                        <td>
+                            <a asp-action="Update" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Update</a>                          
+                        </td>
+                        <td>
+                            <a asp-action="Delete" asp-controller="Home" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\bin\Debug\net5.0\ABC.TODOAPP.DTOs.deps.json
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\bin\Debug\net5.0\ABC.TODOAPP.DTOs.dll
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\bin\Debug\net5.0\ABC.TODOAPP.DTOs.pdb
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\ABC.TODOAPP.DTOs.csproj.AssemblyReference.cache
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\ABC.TODOAPP.DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\ABC.TODOAPP.DTOs.AssemblyInfoInputs.cache
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\ABC.TODOAPP.DTOs.AssemblyInfo.cs
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\ABC.TODOAPP.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\ABC.TODOAPP.DTOs.dll
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\refint\ABC.TODOAPP.DTOs.dll
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\ABC.TODOAPP.DTOs.pdb
+C:\Users\ahmet\source\repos\ABC.TODOAPP\ABC.TODOAPP.DTOs\obj\Debug\net5.0\ref\ABC.TODOAPP.DTOs.dll

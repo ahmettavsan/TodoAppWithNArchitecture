@@ -1,0 +1,28 @@
+﻿@model WorkUpdateDTos
+
+<div class="container my-2">
+
+    <form asp-action="update" asp-controller="Home" method="post">
+        <div>
+            <label asp-for="Definition"></label>
+            <input asp-for="Definition" />
+            <div asp-validation-summary="ModelOnly"></div>
+        </div>
+        <div>
+            <label asp-for="IsCompleted"></label>
+            <input asp-for="IsCompleted" type="checkbox" />
+            <div asp-validation-summary="ModelOnly"></div>
+        </div>
+        <div class="my-2">
+            <button class="btn btn-dark">Button</button>
+        </div>
+    </form>
+
+    @if (ViewBag.error!=null)
+    {
+        foreach (var item in ViewBag.error)
+        {
+            <h2>item.ErrorMessage</h2>
+        }
+    }
+</div>
